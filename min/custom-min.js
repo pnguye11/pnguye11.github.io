@@ -23,3 +23,7 @@ function scaleCard(e){var el=closest(e);var target=el,id=target.getAttribute('da
 function onAnimated(card,popup){card.addEventListener(transEndEventName,function transitionEnded(){card.style['opacity']=0;popup.style['visibility']='visible';popup.style['zIndex']=9999;card.removeEventListener(transEndEventName,transitionEnded);});}
 function onPopupClick(card,popup){popup.addEventListener('click',function toggleVisibility(e){var size=getDifference(popup,card);card.style['opacity']=1;card.style['borderRadius']='6px';hidePopup(e);transformCard(card,size);},false);}
 function hidePopup(e){e.target.style['visibility']='hidden';e.target.style['zIndex']=2;}});})(jQuery);
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
