@@ -15,7 +15,6 @@
 #contact, .contact {
   margin-left: auto;
   margin-right: auto;
-  width: 60em;
   text-align: center;
 }
 
@@ -87,7 +86,7 @@ body {
 
 }
 
-.myname {
+.name {
   width: 70%;
   height: 50%;
   margin-top: 1em;
@@ -172,6 +171,7 @@ h1 {
 h4 {
   margin-left: 7em;
   color: rgba(0,0,0,0.2);
+  font: bold;
 
 }
 
