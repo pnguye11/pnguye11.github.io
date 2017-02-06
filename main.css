@@ -15,6 +15,7 @@
 #contact, .contact {
   margin-left: auto;
   margin-right: auto;
+  width: 60em;
   text-align: center;
 }
 
@@ -126,7 +127,7 @@ body {
 }
 
 .breadcrumb {
-  background-color: white;
+  background-color: #fff;
   margin-top: 2em;
   font-size: 1.2em;
 }
